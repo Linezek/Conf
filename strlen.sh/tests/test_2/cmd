@@ -1,0 +1,1 @@
+/bin/sh strlen.sh 'http://perso.epita.fr/~jog/boxe/' | cat -e

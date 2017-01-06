@@ -1,0 +1,1 @@
+./hidenp "ecran 30 pouces" "" | cat -e

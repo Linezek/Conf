@@ -1,0 +1,23 @@
+Exercice __NUM__ : common_str
+__________________________
+Nom du programme                :       common_str
+Nom du repertoire               :       __REP__
+Temps de realisation            :       30 minutes
+Fonctions autorisees            :       my_putchar, my_putstr
+
+
+          La commande prend deux chaines en parametre.
+          La commande common_str affiche le nombre de caracteres communs 
+        a ces deux chaines. 
+          C'est a dire le nombre d'occurences des caracteres qui se trouvent
+        dans les deux chaines.
+          On considerera qu'il n'y a aucun doublon dans aucun des parametres.
+
+
+Exemple :
+(jog@almarita)./common_str "kh~ xz" "o[ixhf vns" | cat -e
+3$
+(jog@almarita)
+
+explication:
+   {h, l'espace, x} sont communs aux deux parametres.

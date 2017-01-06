@@ -1,0 +1,1 @@
+echo 'too long => killed' && pkill str_maxlenoc

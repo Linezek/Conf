@@ -1,0 +1,4 @@
+#!/bin/sh
+
+rm -f hello
+gcc -o hello *.c

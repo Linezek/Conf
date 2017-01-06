@@ -1,0 +1,1 @@
+./hidenp "kinder surprise" "j'aime les kinder et les surprises" | cat -e

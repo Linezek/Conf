@@ -1,0 +1,50 @@
+WCF = Winmdows Communication Fondation
+BIOS = Basic Input/Output system
+NMSLOOCKUP = nslookup interroge les serveurs DNS pour obtenir soit l'adresse IP en fonction d'un nom de domaine, soit l'inverse.
+IP = Internet protocole
+RAM = Random Access Memory
+FQDN = fully qualified domain name (un nom de domaine non ambigu pour spÅÈcifier la position absolue d'un núÙ†Ûud dans un arbre DNS).
+Man In the middle = attaque informatique
+Gnu = is not UNIX
+WWW = World Wide Web
+IPP = Internet Printing Protocol
+NAGIOS = Monitoring System
+URL = Uniform Resource Locator
+FTP =  File Transfer Protocol
+JFS = Journaled File System
+NTFS = New Technology File System
+VLAM = Virtual LAN
+AFS = Andrew Files System
+AFP = Advanced Funtions Presentation
+AES = Advanced Encryption Standard
+NFS = Network file system
+KERNEL = Noyaux
+SNMP = Simple Network Management Protocol
+
+
+Quel prog n'est pas un serveur DNS ? = echo PCRE
+Quel serveur fait corresponde une adresse ip a une adresse mac ? = DHCP
+Quel serveur fait correspondre un nom de domaine avec une IP ? = DNS
+Que vaut un Octet ? = 8 bits
+Puffy est la mascotte de quel OS ? = Open BSD
+Quel composant n'est pas vital au demmarage d'un ordi ? = Carte graphique
+Quel est la resolution du HD Ready ? = 720p
+Quel est la resolution du Full HD ? = 1920 x 1080
+Quel est la taille d'un petaoctet ? = 10^15
+Quel est la taille d'un teraoctet ? = 10^12
+Quel est la taille d'un exaoctet ? = 10^18
+Quel est la formule de l'addition sous excel en anglais ? = SUM
+Taille d'un short ? = 16 bits
+Taille d'un int ? = 32 bits
+Taille d'un int* ?
+Taille d'un char* ?
+Quel est l'utilitee du SMTP = Envoyer des mails
+Qu'es ce que la MBR ? =
+Que donne 0xD3ADCAFE en octal ? = 0323533453761
+Que retourne malloc en cas d'echec ? = NULL
+Que retourne stat en cas d'echec ? =
+Quel logiciel n'est pas un antivirus ? = Spybot
+Quel logiciel n'est pas un SGDB ? = Firesql
+
+
+

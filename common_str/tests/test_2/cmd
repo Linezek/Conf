@@ -1,0 +1,1 @@
+./common_str "The Zcar" "pouet" | cat -e

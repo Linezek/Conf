@@ -1,0 +1,24 @@
+Exercice __NUM__ : Hello World!
+------------------------
+Nom du fichier C        :       hello.c
+Nom du repertoire       :       __REP__
+Temps de realisation    :       20 minutes.
+Fonctions autorisee     :       my_putchar, my_putstr
+Compilation             :       cc -o hello *.c
+
+
+        Ecrire un programme qui affiche 'Hello World!' suivi d'un \n.
+
+        Le fichier hello.c contiendra le main et tout ce qu'il faut
+        (notament la fonction my_putchar)
+
+        ATTENTION le programme sera compile comme :
+        cc -o hello *.c
+
+exemple:
+(user@host h)cc -o hello *.c
+(user@host h)./hello
+Hello World!
+(user@host h)./hello | cat -e
+Hello World!$
+(user@host h)

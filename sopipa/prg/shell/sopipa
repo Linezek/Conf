@@ -1,0 +1,14 @@
+if [ $1 ]; then
+{
+ file1=`echo $1`
+ cmd1=`echo $2`
+ cmd2=`echo $3`
+ file2=`echo $4`
+
+< $file1 $cmd1 | $cmd2 > $file2
+
+}
+else
+ echo "" 
+fi
+

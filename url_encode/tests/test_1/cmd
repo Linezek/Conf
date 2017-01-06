@@ -1,0 +1,1 @@
+./url_encode  "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789   []_)\o" | cat -e

@@ -1,0 +1,1 @@
+( grep $USER: ./log  | cut -f 4 -d : | tr "\n" "+" && echo 0 ) | bc

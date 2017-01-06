@@ -1,0 +1,32 @@
+Exercice __NUM__ : sopipa
+_______________________
+Nom de l'executable	:       sopipa
+Nom du repertoire	:       __REP__
+Temps de realisation	:       40 minutes.
+Fonction autorisee	:       toute la libc standard hormis system
+Makefile		:	oui
+
+
+      Le programme sopipa prend 4 parametres:
+         ./sopipa file1 cmd1 cmd2 file2
+      file1 et file2 sont des noms de fichiers.
+      cmd1 et cmd2 sont des commandes shell avec leurs parametres.
+      L'execution du programme sopipa a le meme effet que la commande
+      shell suivante:
+            < file1 cmd1 | cmd2 > file2
+
+      Il n'est pas obligatoire de parser les arguments de sopipa.
+      /bin/sh est autorise (pour executer cmd1 et cmd2 mais pas pour
+      faire le pipe ni pour faire les redirections).
+      Il est obligatoire d'utiliser le pipe, l'usage de fichiers temporaires
+      est prohibe. Vous devez clairement creer le pipe et faire les
+      2 redirection (l'exercice ne consiste pas a trouver les executables ni
+      a decouper les parametres de cmd1 ou cmd2).
+
+
+Exemples:
+(jog@almarita) ./sopipa infile "ls -l" "wc -l" outfile
+executera la meme chose que "< infile ls -l | wc -l > outfile" en sh
+
+(jog@almarita) ./sopipa infile "grep a1" "wc -w" outfile
+executera la meme chose que "< infile grep a1 | wc -w > outfile" en sh

@@ -1,0 +1,36 @@
+Exercice __NUM__ : fprime
+_______________________
+Nom de l'executable     :       fprime
+Nom du repertoire       :       __REP__
+temps de realisation    :       40 minutes.
+Fonctions autorisees    :       printf
+Makefile		:	oui
+
+	Le programme prend en parametre un nombre strictement positif
+	Il s'agit de trouver tous les facteurs premiers du nombre en
+	question. Vous devez les afficher dans l'ordre croissant et
+	separer dans '*' de telle sorte que l'expression donne le bon
+	resultat.
+	Le programme affiche '\n' si il n'y a aucun parametre placer
+	La commande make doit creer l'executable.
+
+
+exemple 1:
+(jog@almarita)./fprime 225225
+3*3*5*5*7*11*13
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./fprime 8333325
+3*3*5*5*7*11*13*37
+(jog@almarita)
+
+exemple 3:
+(jog@almarita)./fprime 9539
+9539
+(jog@almarita)
+
+exemple 4:
+(jog@almarita)./fprime 804577
+804577
+(jog@almarita)

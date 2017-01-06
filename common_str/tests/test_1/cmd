@@ -1,0 +1,1 @@
+./common_str "a" "a" | cat -e

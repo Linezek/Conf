@@ -1,0 +1,51 @@
+Exercice __NUM__ : hidenp
+__________________________
+
+Nom de l'executable  :          hidenp
+Nom du repertoire    :          __REP__
+temps de realisation :          15 minutes
+Fonctions autorisees :          write
+Makefile             :          oui
+
+
+        Ecrire un programme qui prend en parametres deux chaines de
+        caracteres et qui affiche:
+	1 suivi de '\n',
+	si la chaine du premier parametre est cachee dans la deuxieme chaine.
+	Sinon il affichera:
+	0 suivi de '\n'.
+	Soit s1 et s2 des chaine de caracteres.
+        On dit que la chaine s1 est cachee dans la chaine s2 si on peut
+        trouver chaque caractere de s1 dans s2 et ce dans le meme ordre que
+        dans s1.
+
+        Ainsi:
+		"fgex.;" est cachee dans "tyf34gdgf;'ektufjhgdgex.;.;rtjynur6"
+		"abc" est cachee dans "2altrb53c.sse"
+		"abc"  n'est pas cachee dans "btarc"
+
+	Si il n'y a pas deux parametres, le programme affiche '\n'.
+
+
+exemple 1:
+(jog@almarita)./hidenp padinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+1$
+(jog@almarita)
+
+
+exemple 2:
+(jog@almarita)./hidenp ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+0$
+(jog@almarita)
+
+
+exemple 3:
+(jog@almarita)./hidenp "rien" "cette phrase ne cache rien" | cat -e
+1$
+(jog@almarita)
+
+
+exemple 4:
+(jog@almarita)./hidenp | cat -e
+$
+(jog@almarita)

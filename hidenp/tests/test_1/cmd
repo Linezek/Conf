@@ -1,0 +1,1 @@
+./hidenp "bonjour" "pouet" | cat -e

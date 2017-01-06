@@ -1,0 +1,28 @@
+Exercice __NUM__  : paramsum
+________________________
+Nom du fichier          :       paramsum.c
+Nom de repertoire       :       __REP__
+Temps de realisation    :       5 minutes.
+Fonction autorisee      :       printf
+Compilation		:	cc -o paramsum paramsum.c
+
+
+        Ecrire un programme qui affiche le nombre d'argument passes en parametre
+        au programme, suivi d'un '\n'.
+        Si aucun argument n'est passe, vous afficherez '0', suivis d' un '\n'.
+
+
+exemple 1:
+(jog@almarita)./paramsum 1 2 3 5 7 24
+6
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./paramsum 6 12 24 | cat -e
+3$
+(jog@almarita)
+
+exemple 3:
+(jog@almarita)./paramsum | cat -e
+0$
+(jog@almarita)

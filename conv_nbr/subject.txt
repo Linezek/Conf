@@ -1,0 +1,44 @@
+Exercice ex_bonus : conv_nbr
+__________________________
+
+Nom de l'executable  :          conv_nbr
+Nom du repertoire    :          ex_bonus
+Temps de realisation :          35 minutes.
+Fonction autorisees  :          printf, write
+Makefile             :          oui
+
+
+         Le programme prend en parametre trois
+         chaines de caractere: nbr, baseD et baseA.
+         Le programme respecte le synopsys suivant:
+                  ./conv_nbr "nbr" "baseD"  "baseA"
+         conv_nbr convertit nbr de la base baseD a la base baseA et affiche
+         la chaine resultat sur la sortie standard.
+
+         Ce programme doit gerer les nombres negatifs.
+         Ainsi que les entiers de (-2^31) a (2^31)-1.
+
+         nbr est bien la representation d'un nombre dans la baseD.
+         baseA et baseD sont des bases valides:
+               - pas de doublon
+               - au moins 2 digits.
+
+         On peut utiliser comme digits de la base, tous caracteres affichables.
+         Il ne peut y avoir qu'un seul signe '-' .
+         zero (0) est positif.
+
+(jog@almarita)./conv_nbr 123 0123456789 01 | cat -e
+1111011$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr 1111011 01 0123456789 | cat -e
+123$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr -123 0123456789 0123456789ABCDEF | cat -e
+-7B$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr -123 0123456789 0123456789 | cat -e
+-123$
+(jog@almarita)

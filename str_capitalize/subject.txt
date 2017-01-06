@@ -1,0 +1,35 @@
+Exercice __NUM__ : str_capitalize
+_______________________
+Nom de l'executable     :       str_capitalize
+Nom du repertoire       :       __REP__
+temps de realisation    :       30 minutes.
+Fonction autorisee      :       my_putstr, my_putchar
+Makefile		:	oui
+
+
+        Il s'agit d'ecrire un programme qui prend en parametre une chaine
+        caracteres et qui met une majuscule a chaque debut de mots.
+        
+        Ce programme affiche le resultat sur la sortie standard suivi d'un '\n'
+
+	On appel mots une chaine de caractere separee par soit des espaces,
+        soit des tabulations, soit le debut de la chaine ou la fin de la
+        chaine.
+        
+        Le programme doit revoyer un '\n' si il n'y a aucun parametre.
+
+
+exemple 1:
+(jog@almarita)./str_capitalize "Ceci est un (1),petit test " | cat -e
+Ceci Est Un (1),petit Test $
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./str_capitalize "La verite est la seule source de courage."| cat -e
+La Verite Est La Seule Source De Courage.$
+(jog@almarita)
+
+exemple 3:
+(jog@almarita)./str_capitalize | cat -e
+$
+(jog@almarita)

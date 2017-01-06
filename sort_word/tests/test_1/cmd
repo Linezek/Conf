@@ -1,0 +1,1 @@
+./sort_word "jean aime les filles de joie" | cat -e

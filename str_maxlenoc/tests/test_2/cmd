@@ -1,0 +1,1 @@
+./str_maxlenoc bonjour salut bonjour bonjour | cat -e

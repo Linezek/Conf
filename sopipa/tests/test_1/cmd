@@ -1,0 +1,1 @@
+./sopipa /etc/services cat "grep telnets" test_1 && cat test_1 | cat -e

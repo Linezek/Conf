@@ -1,0 +1,1 @@
+./str_capitalize "les	TIG	cOmmencent	a	9h" | cat -e

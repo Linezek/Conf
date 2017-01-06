@@ -1,0 +1,14 @@
+Exercice __NUM__ : my_max
+------------------------
+Nom du fichier C        :       my_max.c
+Nom du repertoire       :       __REP__
+Temps de realisation    :       20 minutes.
+
+
+      Soit le synoptique suivant: 
+int     my_max(int itab[] ,int len);
+
+      Le premier parametre est un tableau d'int.
+      Le deuxieme parametre est le nombre d'elements que possede le
+      premier parametre.
+      La fonction renvoie le plus grand nombre trouve dans le tableau.

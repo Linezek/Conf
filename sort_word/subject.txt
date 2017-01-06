@@ -1,0 +1,42 @@
+Exercice __NUM__ : sort_word
+_______________________
+Nom de l'executable     :       sort_word
+Nom du repertoire       :       __REP__
+Temps de realisation    :       20 minutes.
+Fonction autorisee      :       my_putchar, my_putstr, malloc, free.
+Makefile		:	oui
+
+
+        Ecrire un programme qui prend en parametre une chaine de caracteres
+        et qui affiche les mots de cette chaine par ordre alphabetique.
+
+        Les majuscules et minuscules sont trautees comme identiques
+        dans l'ordre alphabetique.
+
+        Si aucun parametre n'est transmis, ce programme affiche '\n'
+
+        On n'affichera qu'un seul separateur entre les mots.
+
+
+exemple 1:
+(jog@vault13) ./sort_word "Comme pour l'addition il est possible de prendre des nombres a virgule" |cat -e
+a Comme de des est il l'addition nombres possible pour prendre virgule
+
+
+
+exemple 2:
+(jog@vault13) ./sort_word "A a b B cc ca cd" | cat -e
+A a b B ca cc cd$
+(jog@vault13)
+
+
+exemple 3
+(jog@vault13) ./sort_word "Mon programme fait Segfault encore une fois" | cat -e
+encore fait fois Mon programme Segfault une$
+(jog@vault13)
+
+
+exemple 4
+(jog@vault13) ./sort_word | cat -e
+$
+(jog@vault13)

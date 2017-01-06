@@ -1,0 +1,1 @@
+./sopipa /etc/passwd "grep -i charlie" "wc -c" test_2 && cat test_2 | cat -e

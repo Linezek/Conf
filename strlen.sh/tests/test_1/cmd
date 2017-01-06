@@ -1,0 +1,1 @@
+/bin/sh strlen.sh 'guigou aime les girafes' | cat -e

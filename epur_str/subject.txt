@@ -1,0 +1,34 @@
+Exercice __NUM__ : epur_str
+_______________________
+Nom de l'executable	:	epur_str
+repertoire		:	__REP__
+executable		:	epur_str
+temps de realisation	:       30 minutes.
+Fonction autorisee	:       my_putchar, my_putnbr, my_putstr.
+Makefile		:	oui  
+
+
+        Ecrire un programme qui prend en parametre une chaine de caracteres
+        et qui affiche les mots separes par un seul espace.
+	Le dernier mot sera suivi d'un '\n' (meme s'il y en a aucun).
+	Il ne devra y avoir d'espace ni avant le premier n'y apres le dernier
+	mot.
+	On appel "mot" une chaine de caractere separee par soit des espaces et tabulations, 
+	soit le debut de la chaine ou la fin de la chaine.
+
+        Si aucun parametre n'est transmis, epur_str affiche '\n'.
+
+
+Exemples:
+
+(jog@almarita)./epur_str "abc cba abc cab cba" | cat -e
+abc cba abc cab cba$
+(jog@almarita)
+
+(jog@almarita)./epur_str "   Remus   et   Romulus    sont  les deux mamelles de Rome  " | cat -e
+Remus et Romulus sont les deux mamelles de Rome$
+(jog@almarita)
+
+(jog@almarita)./epur_str | cat -e
+$
+(jog@almarita)

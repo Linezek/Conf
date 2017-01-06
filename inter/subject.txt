@@ -1,0 +1,41 @@
+Exercice __NUM__ : inter
+--------------------------
+Nom de l'executable  :          inter
+Nom du repertoire    :          __REP__
+temps de realisation :          30 minutes.
+Fonctions autorisees :          malloc, free.
+Makefile             :          oui
+
+
+        Ecrire un programme qui prend en parametre deux chaines de
+        caractere et qui affiche sans doublon les caracteres communs au deux
+	chaines.
+
+	L'affichage se fera dans l'ordre d'apparition dans la premiere chaine.
+	L'affichage doit etre suivi d'un '\n'.
+	
+	Si il n y a pas deux parametres le programme affiche '\n'.
+
+
+exemple 1:
+(jog@vault13) ./inter padinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+padinto$
+(jog@vault13)
+
+
+exemple 2:
+(jog@vault13) ./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6ewg4$
+(jog@vault13)
+
+
+exemple 3:
+(jog@vault13) ./inter "rien" "cette phrase ne cache rien" | cat -e
+rien$
+(jog@vault13)
+
+
+exemple 4:
+(jog@vault13) ./inter | cat -e
+$
+(jog@vault13)

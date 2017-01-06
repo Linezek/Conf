@@ -1,0 +1,1 @@
+./epur_str "Le Bocal est gentil" | cat -e

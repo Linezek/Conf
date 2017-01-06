@@ -1,0 +1,24 @@
+Exercice __NUM__  : rand_mod
+________________________
+Nom des fichiers	:       r1,r2,r3
+Nom du repertoire       :       __REP__
+temps de realisation    :       15 minutes.
+Fonction autorisee      :       pas besoin
+Makefile		:	pas besoin
+
+
+	Dans ~/sujet/src/ vous avez un programme.
+	Le but de l'exo est de comprendre ce que fait le programme.
+	Dans le fichier r1 vous devez mettre 1 si vous pensez que le programme
+	a plus de chance d'afficher un nombre positif, -1 si vous pensez qu'il
+	a plus de chance d'afficher un nombre negatif ou 0 s'il a autant de
+	chance d'afficher un nombre possitif qu'un nombre negatif.
+	
+	Le resultat -1, 0 ou 1 doit etre suivi d'un et d'un seul '\n' et de
+	rien d'autre.
+	Dans le fichier r2 vous mettrez la moyenne a dix decimales pres des 
+	resultats (dans le cadre d'un nombre infinie de tirage).
+	Dans le fichier r3 vous devez expliquer votre reponse de r1 et r2
+
+	Voila.
+

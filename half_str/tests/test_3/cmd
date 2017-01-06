@@ -1,0 +1,1 @@
+./half_str "p lui fa" "pel arf" "poleo unf" | cat -e

@@ -1,0 +1,46 @@
+Exercice __NUM__  : rotone
+________________________
+Nom de l'executable     :       rotone
+Nom du repertoire       :       __REP__
+Temps de realisation    :       15 minutes
+Language		:	C
+Fonction autorisee      :       my_putchar, my_putnbr, my_putstr, write
+Makefile		:	oui
+
+
+         Ecrire un programme qui prend en parametre une chaine de caracteres
+         et qui affiche cette chaine en remplacant chaque caractere
+         alphabetique par le caractere suivant dans l'ordre alphabetique.
+
+	 
+	 
+	 'z' devient 'a' et 'Z' devient 'A'.
+
+         Les majuscules restent des majuscules et les minuscules restent des
+         minuscules.
+
+         L'affichage se termine toujours par un '\n'.
+
+         Si aucun parametre n'est transmis, le programme affiche '\n'.
+
+
+
+exemple 1:
+> ./rotone "abc"
+bcd
+>
+
+exemple 2:
+> ./rotone "Eliminez le bingalow 505" | cat -e
+Fmjnjofa mf cjohbmpx 505$
+>
+
+exemple 3:
+> ./rotone " AkjhZ zLKIJz , 23y " | cat -e
+ BlkiA aMLJKa , 23z $
+>
+
+exemple 3:
+> ./rotone | cat -e
+$
+>

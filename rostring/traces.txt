@@ -1,0 +1,89 @@
+#### TEST 1 ####
+
+=> Command: ./rostring "demande  Il s'agit de   faire ce que l' exo    vous  " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+Il s'agit de faire ce que l' exo vous demande$
+
+<-------------->
+
+<---- correction ---->
+Il s'agit de faire ce que l' exo vous demande$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./rostring "simple.  La encore c'est un exemple    " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+La encore c'est un exemple simple.$
+
+<-------------->
+
+<---- correction ---->
+La encore c'est un exemple simple.$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./rostring "noye. Le petit  poussin a  suivi   les  canards   et le pauvre est mort   " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+Le petit poussin a suivi les canards et le pauvre est mort noye.$
+
+<-------------->
+
+<---- correction ---->
+Le petit poussin a suivi les canards et le pauvre est mort noye.$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./rostring "   carton    Mais    le petit  homme  avait  un    maison ,  et  sa maison est en   " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+Mais le petit homme avait un maison , et sa maison est en carton$
+
+<-------------->
+
+<---- correction ---->
+Mais le petit homme avait un maison , et sa maison est en carton$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+SUCCESS!!!

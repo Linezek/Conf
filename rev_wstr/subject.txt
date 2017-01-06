@@ -1,0 +1,36 @@
+Exercice __NUM__ : rev_wstr
+_______________________
+Nom de l'executable  	:	rev_wstr
+Nom du repertoire    	:	__REP__
+Temps de realisation 	:	20 minutes
+Language		:	C
+Fonctions autorisees   	:	write
+Makefile		:	oui
+
+
+        Ecrire un programme qui prend en parametres une chaine de caracteres
+        et qui affiche cette chaine en inversant ses mots.
+        Le dernier mot se retrouve en premier, l'avant dernier en deuxieme 
+	etc....
+
+	On appel mots une chaine de caractere separee par soit des espaces, 
+	soit le debut de la chaine ou la fin de la chaine.	
+
+        Si aucun parametre n'est transmis, le programme affiche un saut de ligne.
+	NB: il n'y a qu'un seul espace entre chaque mots.
+
+
+exemple 1:
+(jog@almarita) ./rev_wstr "le temps du mepris precede celui de l'indifference" | cat -e
+l'indifference de celui precede mepris du temps le$
+(jog@almarita)
+
+exemple 2:
+(jog@almarita) ./rev_wstr "abcdefghijklm"
+abcdefghijklm
+(jog@almarita)
+
+exemple 3
+(jog@almarita) ./rev_wstr "il contempla le mont"
+mont le contempla il
+(jog@almarita)
