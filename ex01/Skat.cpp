@@ -1,65 +1,63 @@
-/*
-*
-*
-*
-*
-*/
+//
+// Skat.cpp for dsq in /home/galpin_a/CPP/ex00
+//
+// Made by Antoine Galpin
+// Login   <galpin_a@epitech.net>
+//
+// Started on  Wed Jan 11 01:43:24 2017 Antoine Galpin
+// Last update Tue Jan 10 19:27:32 2017 Antoine Galpin
+//
 
-#include <iostream>
-#include <string>
-#include "Skat.hh"
+#include "Skat.h"
 
-Skat::Skat(std::string const& name = "Bob", int stimPaks = 15)
-{
-  this->_name = name;
-  this->_stimPaks = stimPaks;
+Skat::Skat(std::string const& name, int stimPacks): _name(name), _stimPacks(stimPacks) {
 }
 
-int &Skat::stimPaks() { return this->_stimPaks; }
+Skat::~Skat() {}
 
-const std::string &Skat::name() { return this->_name; }
+int& Skat::stimPaks() {return _stimPacks;}
 
-void Skat::shareStimPaks(int number, int& stock)
-{
-  stock -= number;
-  this->_stimPaks = stock;
-    if (stock > 15)
-      std::cout << "Don’t be greedy" << std::endl;
-    else {
+std::string const& Skat::name() {return _name;}
+
+void Skat::shareStimPaks(int number, int& stock) {
+  if (number <= _stimPacks)
+    {
+      stock += number;
+      this->_stimPacks -= number;
       std::cout << "Keep the change." << std::endl;
     }
+  else
+    {
+      std::cout << "Don’t be greedy" << std::endl;
+    }
 }
-
-void Skat::addStimPaks(unsigned int number)
-{
-  if (number == 0)
+void Skat::addStimPaks(unsigned int number) {
+  if (!this->_stimPacks) {
     std::cout << "Hey boya, did you forget something ?" << std::endl;
-  else
-    this->_stimPaks += number;
+  }
+  this->_stimPacks += number;
 }
 
-void Skat::useStimPaks()
-{
-  this->_stimPaks -= 1;
-  if (this->stimPaks > 0)
+void Skat::useStimPaks() {
+  if (this->_stimPacks > 0) {
+    this->_stimPacks--;
     std::cout << "Time to kick some ass and chew bubble gum." << std::endl;
-  else
+  }
+  else {
     std::cout << "Mediiiiiic" << std::endl;
+  }
 }
 
-void Skat::status()
-{
-  std::cout << "Soldier " << this->_name <<  "reporting " << this->_stimPaks << "stimpaks remaining sir !" << std::endl;
+void Skat::status() const {
+  std::cout << "Soldier " << this->_name << " reporting " << this->_stimPacks << " stimpaks remaining sir !" << std::endl;
 }
 
 int main()
 {
- Skat s("Junior", 5);
- std::cout << "Soldier " << s.name() << std::endl;
-
- s.status();
-
- s.useStimPaks();
-
- return 0;
+  Skat s("Junior", 5);
+  std::cout << "Soldier " << s.name() << std::endl;
+  s.status();
+  s.useStimPaks();
+  s.status();
+  return 0;
  }
