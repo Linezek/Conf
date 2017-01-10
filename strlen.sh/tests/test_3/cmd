@@ -1,1 +1,0 @@
-/bin/sh strlen.sh 'le bocal est tres friands d asteks morts' | cat -e

@@ -1,1 +1,0 @@
-./str_capitalize "j'ai un ecran 30 pouces, et vous?" | cat -e

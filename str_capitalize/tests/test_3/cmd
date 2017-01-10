@@ -1,1 +1,0 @@
-./str_capitalize "                    plein                   d'espaces     &  de					 tabulations           !!!                 " | cat -e

@@ -1,1 +1,0 @@
-export USER=rockyluke && sh -c "`cat how_much`" | cat -e

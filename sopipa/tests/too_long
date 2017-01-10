@@ -1,1 +1,0 @@
-echo 'too long => killed' && pkill sopipa ; pkill cat ; pkill grep; pkill systat; pkill ftp

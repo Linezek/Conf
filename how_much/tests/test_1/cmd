@@ -1,1 +1,0 @@
-export USER=jog && sh -c "`cat how_much`" | cat -e

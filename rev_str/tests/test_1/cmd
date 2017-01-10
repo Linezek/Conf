@@ -1,1 +1,0 @@
-./rev_str "le bocal c'est bien" | cat -e

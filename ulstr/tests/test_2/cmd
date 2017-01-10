@@ -1,1 +1,0 @@
-./ulstr " 0123456879 abcdefg HIJKLMNO $%@!#" | cat -e

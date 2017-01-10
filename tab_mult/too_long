@@ -1,1 +1,0 @@
-echo 'too long => killed' && pkill tab_mult

@@ -1,3 +1,0 @@
-compilation=Makefile	# Makefile, gcc, or none
-tests=5			# total of tests for correction
-languages=c		# ex: c,perl,php

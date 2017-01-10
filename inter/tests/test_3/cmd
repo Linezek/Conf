@@ -1,1 +1,0 @@
-./inter "abcdefghijklmnopqrstuvwxyz" "zyxwvutsrqponmlkjihgfedcba" | cat -e
